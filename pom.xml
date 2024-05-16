@@ -92,7 +92,7 @@
 			     </dependency>
 			    </dependencies>
 			    <configuration>
-			     <mutationThreshold>70</mutationThreshold>
+			     <mutationThreshold>70</mutationThreshold>     // If less than 70 it will fail above means pass
 			     <outputFormats>
 			             <outputFormat>XML</outputFormat>
 			             <outputFormat>HTML</outputFormat>
