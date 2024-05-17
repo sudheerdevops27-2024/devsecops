@@ -20,7 +20,7 @@ spec:
         emptyDir: {}
       serviceAccountName: default
       containers:
-      - image: replace
+      - image: dockerlearning/devsevops:{{BUILD_NUMBER}}
         name: devsecops-container
         volumeMounts:
         - mountPath: /tmp
