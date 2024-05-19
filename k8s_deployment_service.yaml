@@ -20,7 +20,7 @@ spec:
         emptyDir: {}
       serviceAccountName: default
       containers:
-      - image: public.ecr.aws/h8e1j9s5/devsecops:{{BUILD_NUMBER}}
+      - image: public.ecr.aws/h8e1j9s5/devsecops
         name: devsecops-container
         volumeMounts:
         - mountPath: /tmp
